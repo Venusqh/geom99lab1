@@ -9,7 +9,7 @@
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-        #map {
+        #mapid {
           height: 100%;
         }
 
@@ -22,18 +22,18 @@
         }
     </style>
     <script>
-      let map;
+      let mapvar;
 
       function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: -34.397, lng: 150.644 },
+        mapvar = new google.maps.Map(document.getElementById("mapid"), {
+          center: { lat: -34.397, lng: 150.644 },  <!-- MapOptions center latlngliteral-->
           zoom: 8,
         });
       }
     </script>
   </head>
   <body>
-    <div id="map"></div>
+    <div id="mapid"></div>
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <!-- *** STUDENTS: Replace YOUR_API_KEY text with provided key in class for property src in next line *** -->
