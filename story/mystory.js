@@ -1,9 +1,11 @@
 // https://github.com/googlemaps/js-samples/tree/main/samples/advanced-markers-basic-style
+// https://developers.google.com/maps/documentation/javascript/reference/advanced-markers
+// https://github.com/googlemaps/js-samples/tree/main/samples/marker-clustering
 
 async function initMap() {
   // Request needed libraries
   const { Map } = await google.maps.importLibrary("maps")
-  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker")
+  const { PinElement } = await google.maps.importLibrary("marker")
 
   const map = new google.maps.Map(document.getElementById("mapid"), {
     zoom: 3,
