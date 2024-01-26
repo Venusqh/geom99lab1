@@ -1,1 +1,640 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJq6p6ZumM1YkRwlenRs5y5SY",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "university"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJq2jqRVx51YkR9u9wqUF6-DY",
+         "types" : 
+         [
+            "establishment",
+            "food",
+            "point_of_interest",
+            "store"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJt-Ax4cJ71YkR68P-WtFhCi4",
+         "types" : 
+         [
+            "car_rental",
+            "establishment",
+            "point_of_interest"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJAXPNOMN71YkRbfA11jvlw94",
+         "types" : 
+         [
+            "establishment",
+            "gym",
+            "health",
+            "point_of_interest"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 44.3541428,
+               "lng" : -78.73893319999999
+            },
+            "southwest" : 
+            {
+               "lat" : 44.3410364,
+               "lng" : -78.7602783
+            }
+         },
+         "copyrights" : "Map data ©2024 Google",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "1.5 km",
+                  "value" : 1489
+               },
+               "duration" : 
+               {
+                  "text" : "4 mins",
+                  "value" : 249
+               },
+               "end_address" : "71 Russell St W, Lindsay, ON K9V 2X1, Canada",
+               "end_location" : 
+               {
+                  "lat" : 44.3523785,
+                  "lng" : -78.7400512
+               },
+               "start_address" : "200 Albert St S, Lindsay, ON K9V 5E6, Canada",
+               "start_location" : 
+               {
+                  "lat" : 44.3410364,
+                  "lng" : -78.7416585
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "41 m",
+                        "value" : 41
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 5
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.34126,
+                        "lng" : -78.7420679
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e toward \u003cb\u003eAlbert St S\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ojsmGjfr_Nk@pA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3410364,
+                        "lng" : -78.7416585
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "20 m",
+                        "value" : 20
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 4
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3414172,
+                        "lng" : -78.7419474
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eAlbert St S\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{ksmG|hr_N_@W"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.34126,
+                        "lng" : -78.7420679
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.7 km",
+                        "value" : 658
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 108
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3462188,
+                        "lng" : -78.741573
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAlbert St S\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{lsmGdhr_NBK@MAOE[SsAUyAEQEQM[MWQWsAc@ICWESAODQD{Bx@eA`@mC~@MFeBn@{E`BMD"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3414172,
+                        "lng" : -78.7419474
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 365
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 63
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3491178,
+                        "lng" : -78.7395501
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : 
+                     {
+                        "points" : "{jtmGxer_Nc@UYYGG][CCQQgBgBKKGGQQCCSOQOQMeB{@CAGA_@K_@Kc@Ki@E"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3462188,
+                        "lng" : -78.741573
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "23 m",
+                        "value" : 23
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 4
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3491821,
+                        "lng" : -78.7392715
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eDurham St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "_}tmGdyq_NKw@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3491178,
+                        "lng" : -78.7395501
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 378
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 64
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.35237069999999,
+                        "lng" : -78.74009459999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eVictoria Ave S\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "k}tmGlwq_NQDG?GAECKKIEKMSUKIIAE?GAODgBl@mFnBuCbA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3491821,
+                        "lng" : -78.7392715
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4 m",
+                        "value" : 4
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 1
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3523785,
+                        "lng" : -78.7400512
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "iqumGp|q_NAG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.35237069999999,
+                        "lng" : -78.74009459999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "2.2 km",
+                  "value" : 2208
+               },
+               "duration" : 
+               {
+                  "text" : "9 mins",
+                  "value" : 558
+               },
+               "end_address" : "401 Kent St W, Lindsay, ON K9V 4Z1, Canada",
+               "end_location" : 
+               {
+                  "lat" : 44.3489725,
+                  "lng" : -78.76023119999999
+               },
+               "start_address" : "71 Russell St W, Lindsay, ON K9V 2X1, Canada",
+               "start_location" : 
+               {
+                  "lat" : 44.3523785,
+                  "lng" : -78.7400512
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4 m",
+                        "value" : 4
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 1
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.35237069999999,
+                        "lng" : -78.74009459999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e toward \u003cb\u003eVictoria Ave S\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "kqumGh|q_N@F"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3523785,
+                        "lng" : -78.7400512
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 207
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 33
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3541428,
+                        "lng" : -78.7408483
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eVictoria Ave S\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "iqumGp|q_NgAb@ICGAGB_Cz@_Cx@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.35237069999999,
+                        "lng" : -78.74009459999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.2 km",
+                        "value" : 1227
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 302
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3510528,
+                        "lng" : -78.7555845
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eKent St W\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "k|umGhar_NDZ`@lCb@nC`@lChA|Hh@rD`A|Gl@~DrAfIRfBPlA@LDf@Dz@?n@A`BCpATfBHn@P`Bh@lDLz@Hb@D\\ZnB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3541428,
+                        "lng" : -78.7408483
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 153
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3509444,
+                        "lng" : -78.756154
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eKent St W\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "aiumGj}t_NbAa@PCBBHFD`@BVAl@UP_@PMAQ@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3510528,
+                        "lng" : -78.7555845
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "13 m",
+                        "value" : 13
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3509742,
+                        "lng" : -78.7559916
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eKent St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "khumG|`u_NE_@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3509444,
+                        "lng" : -78.756154
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "28 m",
+                        "value" : 28
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3512128,
+                        "lng" : -78.7561195
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "qhumG|_u_No@X"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3509742,
+                        "lng" : -78.7559916
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 329
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 52
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3506496,
+                        "lng" : -78.759953
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "ajumGv`u_NPvAN~@TfBHj@Hf@Lz@BHBD@B@BTdBHj@F\\F\\@J?JAFADINIJCBCDEBAFAFAH?F?FBL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3512128,
+                        "lng" : -78.7561195
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 157
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 55
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.34930790000001,
+                        "lng" : -78.75935489999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eSt Joseph Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "qfumGtxu_NjBi@bA_@@AxAk@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3506496,
+                        "lng" : -78.759953
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "78 m",
+                        "value" : 78
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3490776,
+                        "lng" : -78.7602783
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "e~tmG|tu_NLr@Hf@Hf@Hh@@J"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.34930790000001,
+                        "lng" : -78.75935489999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "12 m",
+                        "value" : 12
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 2
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 44.3489725,
+                        "lng" : -78.76023119999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "w|tmGvzu_NTI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 44.3490776,
+                        "lng" : -78.7602783
+                     },
+                     "travel_mode" : "BICYCLING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : 
+               [
+                  {
+                     "location" : 
+                     {
+                        "lat" : 44.3509666,
+                        "lng" : -78.75603319999999
+                     },
+                     "step_index" : 4,
+                     "step_interpolation" : 0.7439118623733521
+                  }
+               ]
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "ojsmGjfr_Nk@pA_@WDYGk@i@mDKc@[s@QWsAc@a@Ic@BmC~@gIxCiFfBc@UYYe@c@UUmCmC{@q@iB}@g@McAWi@EKw@YDMEu@u@UKMAwBr@cKrDAG@FgAb@ICO@_GtBlBfMbFn]rAfIRfBRzAJbBApCCpATfBZpCfAjHZnBbAa@PCLJHx@Al@UP_@PMAQ@E_@o@XPvAd@fDRrAPdADHh@rDHh@ARKTMNIHCNAPBTnDiAzAm@j@lD@JTI"
+         },
+         "summary" : "Albert St S and Victoria Ave S",
+         "warnings" : 
+         [
+            "Bicycling directions are in beta. Use caution – This route may contain streets that aren't suited for bicycling."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
